@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    outline: none; 
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 96px;
+    
+    
+}
+section{
+    padding: 32px 9%;
+
+}
+header{
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    background: purple;
+    padding: 32px 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    
+}
+header .logo{
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    
+    
+}
+header .logo span{
+    color:black;
+}
+header .navbar a{
+    font-size: 17px;
+    padding: 20px;
+    color: white;
+}
+header .navbar a:hover{
+    color: #f6c693;
+}
+
+
+.details .row{
+    display: flex;
+    align-items: center;    gap: 32px;
+    flex-wrap: wrap;    padding: 32px 0;
+    padding-bottom: 58px;
+}
+.details .row img{
+    height: auto;
+    width: 280px;
+}
+.details .row .content{
+    flex: 16 16 640px;
+
+}
+.details .row .content h3{
+    font-size: 30px;
+    color: #c78e89;
+    line-height: 3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.details .row .content p{
+    font-size: 20px;
+    color: black;
+    padding: 18px;
+    justify-content: space-between;
+    
+    
+}
+.details .row .content p{
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn{
+    display: inline-block;
+    margin-top: 16px;
+    border-radius: 60px;
+    background: black;
+    padding: 5px 7px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.btn :hover{
+    box-shadow: white;
+}
+
+/* education */
+
+
+#education {
+    margin-top: 20px;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 30%;
+  }
+.education .heading h2{
+    margin-top: 20px;
+    font-size: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 30%;
+}
+
+  .card1{
+    
+    padding: 20px 35px;
+    font-size: 12px;
+    border-radius: 2px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    border: 3px solid #93317e;
+  }
+  .card2{
+    padding: 20px 35px;
+    font-size: 12px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+    border: 3px solid #93317e;
+  }
+
+/* experience */
+
+.experience .heading h2{
+    margin-top: 20px;
+    font-size: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 30%;
+}
+
+  .card1{
+    
+    padding: 20px 35px;
+    font-size: 12px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+    border: 3px solid #93317e;
+  }
+  .card2{
+    padding: 20px 35px;
+    font-size: 12px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+    border: 3px solid #93317e;
+  }
+
+/* my family section */
+
+#bestmoment{
+    width: 100%;
+    padding: 90px 0;
+
+}
+
+.picture-box {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+
+.picture1{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 1px;
+    margin-bottom: 5px;
+    color: white;
+    position: relative;
+    text-align: center;
+    flex-direction: row;
+    
+}
+.picture1 img{
+    width: 90%;
+    height: 90%;
+    border-radius: 2px;
+}
+
+
+/*contact */
+
+#section{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.contactme{
+    position: relative;
+    width: 100%;
+    padding: 30px 100px;
+}
+.contactme .title h2{
+    color: #666;
+    font-weight: 500;
+
+}
+.form{
+    grid-area: form;
+}
+.info{
+    grid-area: info;
+}
+.map{
+    grid-area: map;
+}
+.contact{
+    padding: 10px;
+    background: white;
+    box-shadow: 10px 20px 10px rga(0,0,0,0.15);
+}
+
+.box{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas: "form info" "form map";
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+.contact h3{
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: 'popins', sans-serif;
+}
+
+/* form */
+.formBox{
+    position: relative;
+    width: 100%;
+}
+.formBox .row50{
+    display: flex;
+    gap: 20px;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.formBox .row100 .inputBox{
+    width: 100%;
+}
+.inputBox span{
+    color: black;
+    max-width: 2px;
+    margin-bottom: 5px;
+    font-weight: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.inputBox input{
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid black;
+}
+.inputBox textarea{
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid black;
+    resize: none;
+    min-height: 22px;
+    margin-bottom: 10px;
+}
+.inputBox input[type="submit"]{
+    background: black;
+    color : white;
+    border: none;
+    font-size: 15px;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 14px 15px;
+}
+.inputBox :placeholder{
+    color: rgb(96, 75, 96);
+}
+
+/* info */
+.info{
+    background: white;
+}
+.info h3{
+    color: rgb(81, 69, 81);
+}
+.info .infoBox div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.info .infoBox div span{
+    min-width: 40px;
+    height: 40px;
+    color: white;
+    background: rgb(108, 85, 108);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.info .infoBox div p{
+    color: black;
+    font-size: 15px;
+    font-family: 'popins', sans-serif;
+}
+.info .infoBox div a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'popins', sans-serif;
+    text-transform: lowercase;
+}
+
+.map{
+    padding: 0;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+/* footer section */
+
+ footer {
+    background-color: rgb(135, 97, 135);
+    padding: 40px;
+    text-align: center;
+ }
+ 
+ footer p {
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+ }
